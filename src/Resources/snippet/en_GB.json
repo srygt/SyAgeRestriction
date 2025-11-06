@@ -1,0 +1,8 @@
+{
+    "SyAgeRestriction": {
+        "snippets": {
+            "ageRestriction": "The required minimum age of {{ minAge }} years has not been reached. Registration is not possible.",
+            "tooYoungError": "Due to legal restrictions, you must be at least {{ minAge }} years old to register."
+        }
+    }
+}

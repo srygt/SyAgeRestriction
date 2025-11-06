@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>General Settings</title>
+        <title lang="de-DE">Allgemeine Einstellungen</title>
+
+        <input-field>
+            <name>minAge</name>
+            <label>Minimum Required Age</label>
+            <label lang="de-DE">Erforderliches Mindestalter</label>
+            <help-text>The minimum age required for registration (e.g., 18 for tobacco products).</help-text>
+            <help-text lang="de-DE">Das zur Registrierung erforderliche Mindestalter (z.B. 18 für Tabakwaren).</help-text>
+            <type>int</type>
+            <default>18</default>
+            <required>true</required>
+            <min>1</min>
+        </input-field>
+    </card>
+</config>

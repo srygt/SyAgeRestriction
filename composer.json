@@ -1,0 +1,31 @@
+{
+    "name": "syagerestriction/sy-age-restriction",
+    "description": "Age restriction plugin for Shopware 6 registration form.",
+    "version": "2.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serdar Yigit",
+            "homepage": "https://www.serdaryigit.de",
+            "email": "info@serdaryigit.de"
+        }
+    ],
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "SyAgeRestriction\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "SyAgeRestriction\\SyAgeRestriction",
+	    "plugin-icon": "src/Resources/config/plugin.png",
+        "label": {
+            "en-GB": "SY Age Restriction for Registration",
+            "de-DE": "SY Altersbeschränkung für Registrierung"
+        },
+        "manufacturerLink": {
+            "en-GB": "https://www.serdaryigit.de",
+            "de-DE": "https://www.serdaryigit.de"
+        }
+    }
+}

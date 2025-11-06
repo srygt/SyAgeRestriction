@@ -1,0 +1,12 @@
+{% sw_extends '@Storefront/storefront/component/address/address-personal.html.twig' %}
+
+{% block component_address_personal_birthday %}
+    {{ parent() }}
+
+    <div
+        id="sy-age-restriction-container"
+        data-sy-age-restriction-plugin="true"
+        data-min-age="{{ config('SyAgeRestriction.config.minAge') }}"
+        data-max-year="{{ "now"|date("Y") - config('SyAgeRestriction.config.minAge') }}"
+    ></div>
+{% endblock %}
